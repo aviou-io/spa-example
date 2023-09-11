@@ -25,7 +25,7 @@ There are 4 examples of using AVIOU catalogues with our web-component. They are 
 
 The urls for those are:
 
-- [http://localhost:3000/catalogue-a](http://localhost:3000/cataloge-a)
-- [http://localhost:3000/catalogue-b](http://localhost:3000/cataloge-b)
-- [http://localhost:3000/switch-catalogue](http://localhost:3000/switch-cataloge)
-- [http://localhost:3000/two-catalogues](http://localhost:3000/two-cataloges)
+- [http://localhost:3000/catalogue-a](http://localhost:3000/catalogue-a)
+- [http://localhost:3000/catalogue-b](http://localhost:3000/catalogue-b)
+- [http://localhost:3000/switch-catalogue](http://localhost:3000/switch-catalogue)
+- [http://localhost:3000/two-catalogues](http://localhost:3000/two-catalogues)
