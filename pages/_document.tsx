@@ -8,7 +8,7 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script type="text/javascript" src="https://publish.aviou.io/assets/v3.17/web-component.js" strategy="afterInteractive" />
+        <Script type="text/javascript" src="https://publish.aviou.io/assets/latest-stable/web-component.js" strategy="afterInteractive" />
       </body>
     </Html>
   )
