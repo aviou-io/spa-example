@@ -1,5 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -8,8 +8,12 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <Script type="text/javascript" src="https://publish.aviou.io/assets/latest-stable/web-component.js" strategy="afterInteractive" />
+        <Script
+          type="text/javascript"
+          src="https://publish.aviou.io/assets/latest-stable/web-component.js"
+          strategy="afterInteractive"
+        />
       </body>
     </Html>
-  )
+  );
 }

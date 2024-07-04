@@ -12,3 +12,12 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #fff;
 }
+
+.o-catalog-aviou {
+  min-height: 300px;
+  position: relative;
+}
+
+.o-catalog-aviou__container {
+  height: calc(100dvh - 128px);
+}

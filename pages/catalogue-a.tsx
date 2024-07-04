@@ -5,14 +5,27 @@ const CatalogueA: React.FC = () => {
   const hasMounted = useHasMounted();
 
   if (!hasMounted) return null;
-  
+
   return (
     <>
-      <div><Link href="/catalogue-b">Catalogue B</Link></div>
-      <div><Link href="/two-catalogues">Two catalogues</Link></div>
-      <div><Link href="/switch-catalogue">Switch catalogue</Link></div>
+      <div>
+        <Link href="/catalogue-b">Catalogue B</Link>
+      </div>
+      <div>
+        <Link href="/two-catalogues">Two catalogues</Link>
+      </div>
+      <div>
+        <Link href="/switch-catalogue">Switch catalogue</Link>
+      </div>
 
-      <av-catalogue url="https://aviou-demo.aviou.io/gaming-days" id="1538"></av-catalogue>
+      <section className="o-catalog-aviou" data-component="catalog-aviou">
+        <div className="o-catalog-aviou__container">
+          <av-catalogue
+            url="https://helsam.aviou.io/fokuskampagne-april"
+            id="3116"
+          ></av-catalogue>
+        </div>
+      </section>
     </>
   );
 };
