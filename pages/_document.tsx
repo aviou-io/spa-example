@@ -10,7 +10,7 @@ export default function Document() {
         <NextScript />
         <Script
           type="text/javascript"
-          src="https://publish.aviou.io/assets/latest-stable/web-component.js"
+          src="https://source.dayli.eu/latest-stable/web-component.js"
           strategy="afterInteractive"
         />
       </body>
